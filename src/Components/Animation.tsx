@@ -1,3 +1,4 @@
+import { Button } from "antd";
 import React from "react";
 import { Spring, animated, useSpring } from 'react-spring';
 
@@ -7,19 +8,17 @@ const Animation = () => {
         from: {
             opacity: 0, marginTop: -500
         },
-        to: { opacity: 1, marginTop: 0 }
+        to: { opacity: 1, marginTop: 0 },
     });
 
     return (
-
         <animated.div style={{...props}}>
             <div style={animationStyle}>
                 <h1 style={{ color: 'white', fontFamily: 'Arial' }}>Animation</h1>
                 <p>Hi! My name is Alexandrina. I have a great time coding!</p>
             </div>
+            <Button>Check git</Button>
         </animated.div>
-
-
     )
 }
 
