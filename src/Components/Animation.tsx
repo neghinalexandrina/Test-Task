@@ -17,7 +17,6 @@ const Animation = () => {
                 <h1 style={{ color: 'white', fontFamily: 'Arial' }}>Animation</h1>
                 <p>Hi! My name is Alexandrina. I have a great time coding!</p>
             </div>
-            <Button>Check git</Button>
         </animated.div>
     )
 }
